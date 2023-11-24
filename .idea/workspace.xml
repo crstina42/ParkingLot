@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df55c7c3-7dd4-41dd-96f4-659b480e1fc4" name="Changes" comment="&quot;Part 3: added a&#10;menu and a foooter&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/Cars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
+    <list default="true" id="df55c7c3-7dd4-41dd-96f4-659b480e1fc4" name="Changes" comment="&quot;Part 4: added a&#10;a Cars menu&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,7 @@
       <list>
         <option value="Servlet" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,6 +63,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.parking.parkinglot.entities" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="GlassFish 7.0.91" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 7.0.91" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="corretto-17">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
@@ -148,7 +153,7 @@
       <workItem from="1699821649603" duration="1160000" />
       <workItem from="1699856706060" duration="6549000" />
       <workItem from="1700420486023" duration="9157000" />
-      <workItem from="1700812186859" duration="402000" />
+      <workItem from="1700812186859" duration="3171000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -174,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699883365592</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Part 4: added a&#10;a Cars menu&quot;">
+      <option name="closed" value="true" />
+      <created>1700813665869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700813665869</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +214,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="&quot;added a page template tag and created an about&quot;." />
     <MESSAGE value="&quot;Part 3: added a&#10;menu and a footer&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Part 3: added a&#10;menu and a footer&quot;" />
+    <MESSAGE value="&quot;Part 4: added a&#10;a Cars menu&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Part 4: added a&#10;a Cars menu&quot;" />
   </component>
 </project>
