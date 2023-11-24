@@ -32,7 +32,7 @@
 <!-- FOOTER -->
 <div class="container">
   <footer>
-    <p>&copy; 2017–2022 Badea Cristina ½</p>
+    <p>&copy; 2017–2022 Badea Cristina </p>
   </footer>
 </div>
 
