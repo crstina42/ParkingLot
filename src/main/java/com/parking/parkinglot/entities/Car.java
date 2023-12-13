@@ -1,13 +1,11 @@
 package com.parking.parkinglot.entities;
 
-import jakarta.persistence.Basic;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
 
 @Entity
 public class Car {
     @Id
+    @GeneratedValue
     private Long id;
 
     public void setId(Long id) {
@@ -19,14 +17,14 @@ public class Car {
     }
 
     @Basic
-    private String licencePlate;
+    private String licensePlate;
 
-    public String getLicencePlate() {
-        return licencePlate;
+    public String getLicensePlate() {
+        return licensePlate;
     }
 
-    public void setLicencePlate(String licencePlate) {
-        this.licencePlate = licencePlate;
+    public void setLicensePlate(String licensePlate) {
+        this.licensePlate = licensePlate;
     }
 
     @Basic

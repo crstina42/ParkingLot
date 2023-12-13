@@ -1,7 +1,10 @@
 package com.parking.parkinglot;
 
 import java.io.*;
+import java.util.List;
 
+import com.parking.parkinglot.common.CarDto;
+import com.parking.parkinglot.ejb.CarsBean;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 

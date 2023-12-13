@@ -18,15 +18,15 @@ public class User {
         return id;
     }
 
-    private String username;
+    private String userName;
 
     @Basic
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
     private String email;
     private String password;
@@ -57,4 +57,6 @@ public class User {
     public void setCars(Collection<Car> cars) {
         this.cars = cars;
     }
+
+
 }
