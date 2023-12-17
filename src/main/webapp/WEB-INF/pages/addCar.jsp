@@ -7,7 +7,9 @@
     <div class="container text-center">
     <form class="needs-validation" novalidate method="POST" action="${pageContext.request.contextPath}/AddCar">
         <div class="row g-5">
+
             <div class="col-md-6 mb-3">
+                <h1 class="mb-3">Add Car</h1>
                 <label for="license_plate">License Plate</label>
                 <input type="text" class="form-control" id="license_plate" name="licence_plate" placeholder="" value="" required>
                 <div class="invalid-feedback">
