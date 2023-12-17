@@ -10,17 +10,17 @@ import jakarta.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "Users", value = "/Users")
-public class Users extends HttpServlet {
+@WebServlet(name = "AddCar", value = "/AddCar")
+public class AddCar extends HttpServlet {
     @Inject
     UsersBean usersBean;
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        List<UserDto> users= usersBean.findAllUsers();
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse
+            response) throws ServletException, IOException {
+        request.getRequestDispatcher("/WEB-INF/pages/addCar.jsp").forward(request,response);
+        List<UserDto> users=usersBean.findAllUsers();
         request.setAttribute("users",users);
-        request.setAttribute("activePage", "Users");
-        request.getRequestDispatcher("/WEB-INF/pages/users.jsp").forward(request,response);
     }
 
     @Override

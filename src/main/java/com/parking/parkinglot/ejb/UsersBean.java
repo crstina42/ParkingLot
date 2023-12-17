@@ -15,8 +15,8 @@ import java.util.List;
 import java.util.logging.Logger;
 
 @Stateless
-public class UserBean {
-    private static final Logger LOG = Logger.getLogger(UserBean.class.getName());
+public class UsersBean {
+    private static final Logger LOG = Logger.getLogger(UsersBean.class.getName());
     @PersistenceContext
     EntityManager entityManager;
 
@@ -24,7 +24,7 @@ public class UserBean {
     {
         LOG.info("findAllUsers");
         try {
-            TypedQuery<User> typedQuery=entityManager.createQuery("SELECT c FROM User c",User.class);
+            TypedQuery<User> typedQuery=entityManager.createQuery("SELECT u FROM User u",User.class);
             List<User> users=typedQuery.getResultList();
             return copyUsersToDto(users);
 
