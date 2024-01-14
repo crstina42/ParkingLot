@@ -1,4 +1,4 @@
-package com.parking.parkinglot.entities;
+package com.parking.parkinglot;
 
 import com.parking.parkinglot.ejb.UsersBean;
 import jakarta.annotation.security.DeclareRoles;
