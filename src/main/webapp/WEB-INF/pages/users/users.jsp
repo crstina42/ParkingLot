@@ -33,12 +33,14 @@
                 </div>
             </u:forEach>
         </div>
+        <u:if test="${pageContext.request.isUserInRole('INVOICING')}">
         <u:if test="${not empty invoices}">
             <h2>Invoices</h2>
             <u:forEach var="username" items="${invoices}" varStatus="status">
                 ${status.index + 1}. ${username}
                 <br/>
             </u:forEach>
+        </u:if>
         </u:if>
     </form>
 
